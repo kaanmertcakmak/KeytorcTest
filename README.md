@@ -16,6 +16,7 @@ Run `mvn test` in command line. This will run tests in chrome browser since it i
 In order to choose browser:
 Run `mvn -Dbrowser=firefox test`. This will run tests in Firefox
 
+
 **ARCHITECTURE**
 
 ./testngCucumber.xml

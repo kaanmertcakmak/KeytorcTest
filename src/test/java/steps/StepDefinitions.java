@@ -18,6 +18,7 @@ import utils.HelperMethods;
 import java.util.List;
 
 public class StepDefinitions extends Base {
+
     private WebDriver driver;
     private HomePage homePage;
     private WebDriverWait webDriverWait;
@@ -44,6 +45,7 @@ public class StepDefinitions extends Base {
         // additional helpers
         webDriverWait = new WebDriverWait(driver, 30);
     }
+
     @Given("^I visit \"([^\"]*)\"$")
     public void navigate_to_Site(String arg1) {
         // Write code here that turns the phrase above into concrete actions
