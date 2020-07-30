@@ -1,0 +1,10 @@
+page_elements\LoginPage.class
+steps\StepDefinitions.class
+cucumber_options\TestRunner.class
+page_elements\HomePage.class
+page_elements\ProductDetailPage.class
+utils\Base.class
+page_elements\FavoritesPage.class
+utils\HelperMethods.class
+page_elements\CategoryPage.class
+page_elements\CustomerPage.class

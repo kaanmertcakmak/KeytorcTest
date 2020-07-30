@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="42007" started-at="2020-07-30T15:20:29 EET" finished-at="2020-07-30T15:21:11 EET">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumber_options.TestRunner@4b952a2d]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Keytorc Test Automation Case" duration-ms="42007" started-at="2020-07-30T15:20:29 EET" finished-at="2020-07-30T15:21:11 EET">
+      <class name="cucumber_options.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumber_options.TestRunner@4b952a2d]" name="setUpClass" is-config="true" duration-ms="452" started-at="2020-07-30T15:20:30 EET" finished-at="2020-07-30T15:20:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumber_options.TestRunner@4b952a2d]" name="feature" duration-ms="41384" started-at="2020-07-30T15:20:30 EET" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-07-30T15:21:11 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Keytorc Test Automation case]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumber_options.TestRunner@4b952a2d]" name="tearDownClass" is-config="true" duration-ms="4" started-at="2020-07-30T15:21:11 EET" finished-at="2020-07-30T15:21:11 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumber_options.TestRunner -->
+    </test> <!-- Keytorc Test Automation Case -->
+  </suite> <!-- Suite -->
+</testng-results>
